@@ -8,7 +8,7 @@ import { useOnHistoryPush } from '../../../../hooks';
 
 import './Header.scss';
 import pkg from '../../../../../package.json';
-import lpic from '../../../assets/images/logo.png';
+
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -41,20 +41,7 @@ function Header() {
           <Github size={16} style="margin-bottom: 4px" />
         </a>
         <a href="https://www.sarowarsaurav.com">Portfolio</a>
-        <a
-          class="ph-desktop"
-          href="#"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={lpic}
-            alt="Xero Extended"
-            style="width: 250px; height: 54px;"
-            width="250px"
-            height="54px"
-          />
-        </a>
+        
       </nav>
     </header>
   );
