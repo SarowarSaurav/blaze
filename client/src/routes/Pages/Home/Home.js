@@ -23,12 +23,12 @@ const Home = () => (
         </a>
         <a
           class="ph-mob"
-          href="https://www.producthunt.com/posts/MetDrive-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-MetDrive-2"
+          href=""
           target="_blank"
           rel="noreferrer"
         >
           <img
-            src={logo}
+            src={lpic}
             alt="Xero Extended"
             style="width: 250px; height: 54px;"
             width="250px"
