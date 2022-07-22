@@ -2,6 +2,7 @@ import earth from '../../../assets/images/illustrations/earth.svg';
 import network from '../../../assets/images/illustrations/network.svg';
 import threeDevices from '../../../assets/images/illustrations/three_devices.svg';
 import twoDevices from '../../../assets/images/illustrations/two_devices.svg';
+import lpic from '../../../assets/images/logo.png';
 import './Home.scss';
 
 const Home = () => (
