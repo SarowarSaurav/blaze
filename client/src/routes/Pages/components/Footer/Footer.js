@@ -1,11 +1,17 @@
 
-import lpic from '../../../assets/images/logo.png';
+import logo from '../../../assets/images/logo.png';
 import './Footer.scss';
 const Footer = () => (
   <footer>
     <div>
       <a href="https://metrdive.herokuapp.com" aria-label="DigitalOcean" target="_blank" rel="noreferrer">
-        <img class="digital-ocean" src={lpic} alt="Powered by Xero Extended" />
+      <img
+            src={logo}
+            alt="Xero Extended"
+            style="width: 250px; height: 54px;"
+            width="250px"
+            height="54px"
+          />
       </a>
     </div>
 
