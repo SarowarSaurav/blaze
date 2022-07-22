@@ -1,29 +1,25 @@
-import { h } from 'preact';
 
 import './Footer.scss';
 
 const Footer = () => (
   <footer>
     <div>
-      <a href="https://bit.ly/36uX8oU" aria-label="DigitalOcean" target="_blank" rel="noreferrer">
-        <img class="digital-ocean" src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_white.svg" alt="Powered by DigitalOcean" />
+      <a href="https://metrdive.herokuapp.com" aria-label="DigitalOcean" target="_blank" rel="noreferrer">
+        <img class="digital-ocean" src="https://github.com/SarowarSaurav/blaze/blob/3.0/logo.png" alt="Powered by Xero Extended" />
       </a>
     </div>
 
     <div>
       <span>
-        © 2018 - present&nbsp;
-        <a href="https://akashhamirwasia.com" target="_blank" rel="noreferrer">
-          Akash Hamirwasia
+        © 2022 - present&nbsp;
+        <a href="https://sarowarsaurav.com" target="_blank" rel="noreferrer">
+          Xero Extended
         </a>
         .&nbsp;
       </span>
-      <span>
-        Released under the
-        <a href="https://github.com/blenderskool/blaze/blob/master/LICENSE" target="_blank" rel="noreferrer"> MIT License</a>
-      </span>
+      
       <div>
-        Designed & Developed in 🇮🇳
+        Designed & Developed for Battle of Minds 2022
       </div>
     </div>
   </footer>

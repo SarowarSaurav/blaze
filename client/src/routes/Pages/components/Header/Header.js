@@ -1,13 +1,12 @@
-import { h } from 'preact';
-import { useState } from 'preact/hooks';
-import { Menu, X, Github } from 'preact-feather';
+import { Github, Menu, X } from 'preact-feather';
 import { Link } from 'preact-router/match';
+import { useState } from 'preact/hooks';
 
 import Pill from '../../../../components/Pill/Pill';
 import { useOnHistoryPush } from '../../../../hooks';
 
-import './Header.scss';
 import pkg from '../../../../../package.json';
+import './Header.scss';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -36,20 +35,20 @@ function Header() {
          {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
       <nav style={{ display: isMenuOpen ? 'flex' : 'none' }}>
-        <Link activeClassName="active" href="/how-it-works">How it works</Link>
-        <a href="https://github.com/blenderskool/blaze">
+        <Link activeClassName="active" href="#">How it works</Link>
+        <a href="https://github.com/SarowarSaurav">
           GitHub&nbsp;
           <Github size={16} style="margin-bottom: 4px" />
         </a>
-        <a href="https://www.buymeacoffee.com/akashhamirwasia">Donate</a>
+        <a href="https://www.sarowarsaurav.com">Portfolio</a>
         <a
           class="ph-desktop"
-          href="https://www.producthunt.com/posts/blaze-2?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-blaze-2"
+          href="#"
           target="_blank"
           rel="noreferrer"
         >
           <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=174403&theme=dark&period=daily"
+            src="https://github.com/SarowarSaurav/blaze/blob/3.0/logo.png"
             alt="Blaze - Fast peer to peer file sharing web app ⚡ | Product Hunt Embed"
             style="width: 250px; height: 54px;"
             width="250px"

@@ -13,12 +13,10 @@ const Home = () => (
         <h2 class="subtitle">Using just a web browser to any device on the Internet connect all the employees in 1 platfrom with metaverse & blockchain</h2>
 
         <a href="/app" class="btn">
-          Start Sharing
+          Start Sharing 
         </a>
 
-        <a href="/app" class="btn">
-         
-        </a>
+        <div></div>
 
         <a href="/app" class="btn">
           Start Metaverse Application
@@ -92,7 +90,7 @@ const Home = () => (
 
         <footer>
           <a href="https://sarowarsaurav.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://avatars.githubusercontent.com/u/64561923?v=4?size=200" alt="Sarowar" />
+            <img src="https://avatars.githubusercontent.com/u/64561923?v=4?size=400" alt="Sarowar" />
           </a>
           <cite class="author">Sarowar Jahan</cite>
           <cite class="position">Team Lead</cite>
@@ -100,7 +98,7 @@ const Home = () => (
 
         <footer>
           <a href="https://sarowarsaurav.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.facebook.com/photo/?fbid=2196040523894306&set=a.104779956353717?size=200" alt="Ashik" />
+            <img src="https://www.facebook.com/photo/?fbid=2196040523894306&set=a.104779956353717?size=400" alt="Ashik" />
           </a>
           <cite class="author">Ashikur Rahman</cite>
           <cite class="position">Strategic Lead</cite>
@@ -108,7 +106,7 @@ const Home = () => (
 
         <footer>
           <a href="https://github.com/SowatRafi" target="_blank" rel="noopener noreferrer">
-            <img src="https://avatars.githubusercontent.com/u/59786407?v=4?size=200" alt="Sowat" />
+            <img src="https://avatars.githubusercontent.com/u/59786407?v=4?size=400" alt="Sowat" />
           </a>
           <cite class="author">Sowat Hossain Rafi</cite>
           <cite class="position">Technical Lead</cite>
