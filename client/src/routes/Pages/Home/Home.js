@@ -18,7 +18,7 @@ const Home = () => (
 
         <div></div>
 
-        <a href="/app" class="btn">
+        <a href="https://metdrive.netlify.app/" class="btn">
           Start Metaverse Application
         </a>
         <a
@@ -28,8 +28,8 @@ const Home = () => (
           rel="noreferrer"
         >
           <img
-            src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=174403&theme=dark&period=daily"
-            alt="MetDrive - Fast peer to peer file sharing web app ⚡ | Product Hunt Embed"
+            src={logo}
+            alt="Xero Extended"
             style="width: 250px; height: 54px;"
             width="250px"
             height="54px"
