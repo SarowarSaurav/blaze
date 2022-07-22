@@ -1,12 +1,13 @@
-import { Github, Menu, X } from 'preact-feather';
-import { Link } from 'preact-router/match';
+import { h } from 'preact';
 import { useState } from 'preact/hooks';
+import { Menu, X, Github } from 'preact-feather';
+import { Link } from 'preact-router/match';
+
 import Pill from '../../../../components/Pill/Pill';
 import { useOnHistoryPush } from '../../../../hooks';
-import lpic from '../../../assets/images/logo.png';
 
-import pkg from '../../../../../package.json';
 import './Header.scss';
+import pkg from '../../../../../package.json';
 
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,6 @@ function Header() {
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
-
   useOnHistoryPush(() => setMenuOpen(false));
 
   return (
