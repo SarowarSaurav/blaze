@@ -1,9 +1,9 @@
 import { Github, Menu, X } from 'preact-feather';
 import { Link } from 'preact-router/match';
 import { useState } from 'preact/hooks';
-
 import Pill from '../../../../components/Pill/Pill';
 import { useOnHistoryPush } from '../../../../hooks';
+import lpic from '../../../assets/images/logo.png';
 
 import pkg from '../../../../../package.json';
 import './Header.scss';
@@ -48,8 +48,8 @@ function Header() {
           rel="noreferrer"
         >
           <img
-            src="https://github.com/SarowarSaurav/blaze/blob/3.0/logo.png"
-            alt="Blaze - Fast peer to peer file sharing web app ⚡ | Product Hunt Embed"
+            src={lpic}
+            alt="Xero Extended"
             style="width: 250px; height: 54px;"
             width="250px"
             height="54px"
