@@ -14,13 +14,13 @@ const Home = () => (
         <h2 class="subtitle">Using just a web browser to any device on the Internet connect all the employees in 1 platfrom with metaverse & blockchain</h2>
 
         <a href="/app" class="btn">
-          Start Sharing 
+          Start File Sharing with Blaze
         </a>
 
         <div></div>
 
         <a href="https://metdrive.netlify.app/" class="btn">
-          Start Metaverse Application
+          Start Metaverse Application 
         </a>
         
           <img class="network-img"
