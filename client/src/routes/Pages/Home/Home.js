@@ -1,8 +1,7 @@
-import { h } from 'preact';
-import network from '../../../assets/images/illustrations/network.svg';
-import twoDevices from '../../../assets/images/illustrations/two_devices.svg';
-import threeDevices from '../../../assets/images/illustrations/three_devices.svg';
 import earth from '../../../assets/images/illustrations/earth.svg';
+import network from '../../../assets/images/illustrations/network.svg';
+import threeDevices from '../../../assets/images/illustrations/three_devices.svg';
+import twoDevices from '../../../assets/images/illustrations/two_devices.svg';
 import './Home.scss';
 
 const Home = () => (
@@ -10,11 +9,19 @@ const Home = () => (
     <section class="hero full-screen">
 
       <div class="info">
-        <h1 class="title">Share files the modern way</h1>
-        <h2 class="subtitle">Using just a web browser to any device on the Internet!</h2>
+        <h1 class="title">Metrdrive || Live in the Future</h1>
+        <h2 class="subtitle">Using just a web browser to any device on the Internet connect all the employees in 1 platfrom with metaverse & blockchain</h2>
 
         <a href="/app" class="btn">
           Start Sharing
+        </a>
+
+        <a href="/app" class="btn">
+         
+        </a>
+
+        <a href="/app" class="btn">
+          Start Metaverse Application
         </a>
         <a
           class="ph-mob"
