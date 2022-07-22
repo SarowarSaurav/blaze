@@ -21,20 +21,15 @@ const Home = () => (
         <a href="https://metdrive.netlify.app/" class="btn">
           Start Metaverse Application
         </a>
-        <a
-          class="ph-mob"
-          href=""
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
+        
+          <img class="network-img"
             src={lpic}
             alt="Xero Extended"
             style="width: 250px; height: 54px;"
             width="250px"
             height="54px"
           />
-        </a>
+       
       </div>
 
       <img class="network-img" src={network} alt="Devices connected using MetDrive" />
