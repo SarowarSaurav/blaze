@@ -8,7 +8,7 @@ import { useOnHistoryPush } from '../../../../hooks';
 
 import './Header.scss';
 import pkg from '../../../../../package.json';
-
+import lpic from '../../../assets/images/logo.png';
 function Header() {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
