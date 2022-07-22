@@ -5,7 +5,7 @@ const Footer = () => (
   <footer>
     <div>
       <a href="https://metrdive.herokuapp.com" aria-label="DigitalOcean" target="_blank" rel="noreferrer">
-        <img class="digital-ocean" src={lpic} alt="Powered by Xero Extended" />
+        <img class="digital-ocean" src="https://github.com/SarowarSaurav/blaze/blob/3.0/logo.png" alt="Powered by Xero Extended" />
       </a>
     </div>
 
