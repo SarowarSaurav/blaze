@@ -88,7 +88,7 @@ const Home = () => (
 
         <footer>
           <a href="https://sarowarsaurav.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.facebook.com/photo/?fbid=2196040523894306&set=a.104779956353717?size=400" alt="Ashik" />
+            <img src="https://avatars.githubusercontent.com/u/104280940?v=4?size=400" alt="Ashik" />
           </a>
           <cite class="author">Ashikur Rahman</cite>
           <cite class="position">Strategic Lead</cite>
