@@ -1,0 +1,9 @@
+[build]
+  command = "docker-compose up -d && npm i && cd ../client && npm i && npm run build && npm run build:fe"
+  publish = "client/build"
+
+# Rule for router history mode
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
